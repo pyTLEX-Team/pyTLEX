@@ -2,7 +2,7 @@
 
 ## What is pyTLEX?
 
-pyTLEX is a Python Library developed for implementing the TLEX (TimeLine EXtraction) Algorithm on TimeML Files. The TLEX Algorithm was first developed by Mustafa Ocal and Dr. Mark Finlayson. It was then develoepd into a Python Library by multiple students across several semesters at Florida International University.
+pyTLEX is a Python Library developed for implementing the TLEX (TimeLine EXtraction) Algorithm on TimeML Files. The TLEX Algorithm was first developed by Mustafa Ocal and Dr. Mark Finlayson. It was then adapted into a Python Library by multiple students across several semesters at Florida International University.
 
 ## Installation
 
@@ -59,7 +59,29 @@ timeML_graph = Graph('wsj_0555.tml')
 timeML_graph.timeline
 ```
 
-## Credits
+Users can also visit the User Guide for a more indepth look at how 
 
+## Credits
+Mustafa Ocal
+
+Dr. Mark Finlayson
+
+Jared Hummer
+
+Ismael Clark
+
+Victoria Fernandez
+
+Leandro Estevez
+
+Felipe Arce Rivera
+
+Akul Singh
+
+Kevin Fontela
+
+Raul Garcia Breijo
+
+Jorge Segredo
 
 
