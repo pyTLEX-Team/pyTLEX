@@ -6,7 +6,8 @@ pyTLEX is a Python Library developed for implementing the TLEX (TimeLine EXtract
 
 ## Installation
 
-User must also install certain packages using the requirements.txt file.
+User must also install certain packages using the requirements.txt file:
+
 `pip install -r requirements.txt`
 
 ## Getting Started
