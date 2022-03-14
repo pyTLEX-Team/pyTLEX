@@ -1,17 +1,22 @@
-#An NLP library for Timeline Extraction. 
+# pyTLEX: An NLP library for Timeline Extraction. 
 
-##Installation
+## What is pyTLEX?
 
-`pip install pytlex`
+pyTLEX is a Python Library developed for implementing the TLEX (TimeLine EXtraction) Algorithm on TimeML Files. The TLEX Algorithm was first developed by Mustafa Ocal and Dr. Mark Finlayson. It was then develoepd into a Python Library by multiple students across several semesters at Florida International University.
 
-##Get started
+## Installation
 
-###How to create a TimeML Graph
-####From a TimeML File(must provide a valid TimeML file):
+User must also install certain packages using the requirements.txt file.
+`pip install -r requirements.txt`
+
+## Getting Started
+
+### How to create a TimeML Graph
+#### From a TimeML File(must provide a valid TimeML file):
 
 `timeML_graph = Graph('wsj_0555.tml')` 
 
-####Using TimeML text (must be in the correct TimeML format):
+#### Using TimeML text (must be in the correct TimeML format):
 
 ```
 timeML_graph = Graph("<TimeML
@@ -21,7 +26,7 @@ timeML_graph = Graph("<TimeML
 ```
     
  
-####Using the graph definition (a set of nodes and links):
+#### Using the graph definition (a set of nodes and links):
 
 ```
 node1 = TimeX(50, "FUTURE_REF", True, "next wednesday")
@@ -39,7 +44,7 @@ timeML_graph = Graph(timeML_nodes, timeML_links)
 ```
 
 
-####Accessing a graph's partitions (main and subordination partitions):
+#### Accessing a graph's partitions (main and subordination partitions):
 
 ```
 timeML_graph = Graph('wsj_0555.tml')
@@ -47,12 +52,13 @@ timeML_graph.main_partitions
 timeML_graph.subordination_parittions
 ```
 
-####Accessing a graph's timeline:
+#### Accessing a graph's timeline:
 ```
 timeML_graph = Graph('wsj_0555.tml')
 timeML_graph.timeline
 ```
 
+## Credits
 
 
 
