@@ -68,17 +68,21 @@ timeML_graph.timeline
 For a more throughout look on graphs and other useful methods, please refer to the PyTLEX User Manual.pdf located on _/pyTLEX/_.
 
 ## Credits
-Mustafa Ocal  
-Dr. Mark Finlayson  
-Jared Hummer  
-Ismael Clark  
-Victoria Fernandez  
-Leandro Estevez  
-Felipe Arce Rivera  
-Akul Singh  
-Kevin Fontela  
-Raul Garcia Breijo  
-Jorge Segredo  
-Sage Pages  
-Gerardo Parra  
-Ivan Parra Sanz
+_Dr. Mark Finlayson_: TLEX Algorithm developer  
+_Mustafa Ocal_: TLEX Algorithm developer  
+_Jared Hummer_: contributed to  
+_Ismael Clark_: contributed to  
+_Victoria Fernandez_: contributed to Event.py, Instance.py, Link.py, Signal.py, TimeMLParser.py, and tests  
+_Leandro Estevez_: contributed to  
+_Felipe Arce Rivera_: contributed to  
+_Akul Singh_: contributed to Event.py, Sanity_Check.py, and tests  
+_Kevin Fontela_: contributed to Signal.py, and tests  
+_Raul Garcia Breijo_: contributed to Instance.py  
+_Jorge Segredo_: contributed to TimeX.py, and tests  
+_Sage Pages_: contributed to TimeX.py, Sanity_Check.py, tests, and GitHub upload  
+_Gerardo Parra_: contributed to Inconsistency_detector.py, IndeterminacyDetector.py, Sanity_Check.py, and tests  
+_Ivan Parra Sanz_: contributed to Connectivity_Increaser.py, Partitioner.py, TimeMLParser.py, TCSP_solver.py, Sanity_Check.py, and tests  
+_Carlos Pimentel_: contributed to  
+_Franklin Bello Romero_: contributed to  
+_Tony Erazo_: contributed to  
+_Hector Borges_: contributed to  
