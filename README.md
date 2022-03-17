@@ -10,10 +10,16 @@ User must also install certain packages using the requirements.txt file:
 
 `pip install -r requirements.txt`
 
+A corpus containing freely available TimeML files can be found at: https://catalog.ldc.upenn.edu/LDC2006T08
+
+Before being able to download the corpus for free, the user must register and read the user agreement at the aforementioned address. Afterwards, save the TimeML files inside the _/pyTLEX/pytlex_data/TimeBankCorpus/_ directory.
+
+
+
 ## Getting Started
 
 ### How to create a TimeML Graph
-#### From a TimeML File(must provide a valid TimeML file):
+#### From a TimeML File (must provide a valid TimeML file or filepath):
 
 `timeML_graph = Graph('wsj_0555.tml')` 
 
@@ -59,29 +65,20 @@ timeML_graph = Graph('wsj_0555.tml')
 timeML_graph.timeline
 ```
 
-Users can also visit the User Guide for a more indepth look at how 
+For a more throughout look on graphs and other useful methods, please refer to the PyTLEX User Manual.pdf located on _/pyTLEX/_.
 
 ## Credits
-Mustafa Ocal
-
-Dr. Mark Finlayson
-
-Jared Hummer
-
-Ismael Clark
-
-Victoria Fernandez
-
-Leandro Estevez
-
-Felipe Arce Rivera
-
-Akul Singh
-
-Kevin Fontela
-
-Raul Garcia Breijo
-
-Jorge Segredo
-
-
+Mustafa Ocal  
+Dr. Mark Finlayson  
+Jared Hummer  
+Ismael Clark  
+Victoria Fernandez  
+Leandro Estevez  
+Felipe Arce Rivera  
+Akul Singh  
+Kevin Fontela  
+Raul Garcia Breijo  
+Jorge Segredo  
+Sage Pages  
+Gerardo Parra  
+Ivan Parra Sanz
