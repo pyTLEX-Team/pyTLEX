@@ -69,8 +69,8 @@ For a more throughout look on graphs and other useful methods, please refer to t
 
 ## Credits
 _Dr. Mark Finlayson_: TLEX Algorithm developer  
-_Mustafa Ocal_: TLEX Algorithm developer  
-_Jared Hummer_: contributed to  
+_Mustafa Ocal_: TLEX Algorithm developer, contributed to user manual  
+_Jared Hummer_: contributed to user manual  
 _Ismael Clark_: contributed to  
 _Victoria Fernandez_: contributed to Event.py, Instance.py, Link.py, Signal.py, TimeMLParser.py, and tests  
 _Leandro Estevez_: contributed to  
