@@ -68,21 +68,21 @@ timeML_graph.timeline
 For a more throughout look on graphs and other useful methods, please refer to the PyTLEX User Manual.pdf located on _/pyTLEX/_.
 
 ## Credits
-Dr. Mark Finlayson
-[Mustafa Ocal](https://github.com/mocal001)
-[Jared Hummer](https://github.com/JaredHummer)
-Ismael Clark
-[Victoria Fernandez](https://github.com/Tori8100)
-Leandro Estevez 
-[Felipe Arce Rivera](https://github.com/astherath)
-[Akul Singh](https://github.com/Astral8)
-[Kevin Fontela](https://github.com/Kevin0828)
-Raul Garcia Breijo  
-Jorge Segredo 
-[Sage Pages](https://github.com/sagepages)
-[Gerardo Parra](https://github.com/gerarparra0)
-[Ivan Parra Sanz](https://github.com/IvanP-idk)
-[Carlos Pimentel](https://github.com/cpime013)
-[Franklin Bello](https://github.com/codetancy)
-[Tony Erazo](https://github.com/ProgrammerTony)
-[Hector Borges](https://github.com/hborg004)
+Dr. Mark Finlayson<br>
+[Mustafa Ocal](https://github.com/mocal001)<br>
+[Jared Hummer](https://github.com/JaredHummer)<br>
+Ismael Clark<br>
+[Victoria Fernandez](https://github.com/Tori8100)<br>
+Leandro Estevez<br>
+[Felipe Arce Rivera](https://github.com/astherath)<br>
+[Akul Singh](https://github.com/Astral8)<br>
+[Kevin Fontela](https://github.com/Kevin0828)<br>
+Raul Garcia Breijo<br>
+Jorge Segredo<br>
+[Sage Pages](https://github.com/sagepages)<br>
+[Gerardo Parra](https://github.com/gerarparra0)<br>
+[Ivan Parra Sanz](https://github.com/IvanP-idk)<br>
+[Carlos Pimentel](https://github.com/cpime013)<br>
+[Franklin Bello](https://github.com/codetancy)<br>
+[Tony Erazo](https://github.com/ProgrammerTony)<br>
+[Hector Borges](https://github.com/hborg004)<br>
