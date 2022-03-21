@@ -71,14 +71,14 @@ For a more throughout look on graphs and other useful methods, please refer to t
 Dr. Mark Finlayson<br>
 [Mustafa Ocal](https://github.com/mocal001)<br>
 [Jared Hummer](https://github.com/JaredHummer)<br>
-Ismael Clark<br>
+[Ismael Clark](https://github.com/ismael-Clark5)<br>
 [Victoria Fernandez](https://github.com/Tori8100)<br>
 Leandro Estevez<br>
 [Felipe Arce Rivera](https://github.com/astherath)<br>
 [Akul Singh](https://github.com/Astral8)<br>
 [Kevin Fontela](https://github.com/Kevin0828)<br>
-Raul Garcia Breijo<br>
-Jorge Segredo<br>
+[Raul Garcia Breijo](https://github.com/RGBreijo)<br>
+[Jorge Segredo](https://github.com/JorgeLSH)<br>
 [Sage Pages](https://github.com/sagepages)<br>
 [Gerardo Parra](https://github.com/gerarparra0)<br>
 [Ivan Parra Sanz](https://github.com/IvanP-idk)<br>
