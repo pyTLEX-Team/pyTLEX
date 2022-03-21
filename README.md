@@ -68,21 +68,21 @@ timeML_graph.timeline
 For a more throughout look on graphs and other useful methods, please refer to the PyTLEX User Manual.pdf located on _/pyTLEX/_.
 
 ## Credits
-_Dr. Mark Finlayson_: TLEX Algorithm developer  
-_Mustafa Ocal_: TLEX Algorithm developer, contributed to user manual  
-_Jared Hummer_: contributed to user manual  
-_Ismael Clark_: contributed to  
-_Victoria Fernandez_: contributed to Event.py, Instance.py, Link.py, Signal.py, TimeMLParser.py, and tests  
-_Leandro Estevez_: contributed to  
-_Felipe Arce Rivera_: contributed to  
-_Akul Singh_: contributed to Event.py, Sanity_Check.py, and tests  
-_Kevin Fontela_: contributed to Signal.py, and tests  
-_Raul Garcia Breijo_: contributed to Instance.py  
-_Jorge Segredo_: contributed to TimeX.py, and tests  
-_Sage Pages_: contributed to TimeX.py, Sanity_Check.py, tests, and GitHub upload  
-_Gerardo Parra_: contributed to Inconsistency_detector.py, IndeterminacyDetector.py, Sanity_Check.py, and tests  
-_Ivan Parra Sanz_: contributed to Connectivity_Increaser.py, Partitioner.py, TimeMLParser.py, TCSP_solver.py, Sanity_Check.py, and tests  
-_Carlos Pimentel_: contributed to  
-_Franklin Bello Romero_: contributed to  
-_Tony Erazo_: contributed to  
-_Hector Borges_: contributed to  
+_Dr. Mark Finlayson_
+[_Mustafa Ocal](https://github.com/mocal001)
+[_Jared Hummer](https://github.com/JaredHummer)
+_Ismael Clark_ 
+[_Victoria Fernandez](https://github.com/Tori8100)
+_Leandro Estevez_ 
+[_Felipe Arce Rivera](https://github.com/astherath)
+[_Akul Singh](https://github.com/Astral8)
+[_Kevin Fontela](https://github.com/Kevin0828)
+_Raul Garcia Breijo_  
+_Jorge Segredo_ 
+[_Sage Pages](https://github.com/sagepages)
+[_Gerardo Parra](https://github.com/gerarparra0)
+[_Ivan Parra Sanz](https://github.com/IvanP-idk)
+[_Carlos Pimentel](https://github.com/cpime013)
+[_Franklin Bello](https://github.com/codetancy)
+[_Tony Erazo](https://github.com/ProgrammerTony)
+[_Hector Borges](https://github.com/hborg004)
