@@ -4,6 +4,7 @@ from z3 import *
 
 from pytlex_tests import Testing_utilities
 
+
 def solve(graph):
     s = Solver()
 

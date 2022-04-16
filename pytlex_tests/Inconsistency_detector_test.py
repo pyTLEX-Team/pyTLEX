@@ -58,6 +58,60 @@ class InconsistencyDetectorTest(unittest.TestCase):
             g = Graph(filepath=corpus_path+'/'+file)
             self.assertEqual(g.consistency, is_consistent(g))
 
+    # compare the results of the pytlex algorithm with jtlex
+    # 6 min
+    def test_generate_inconsistent_subgraphs_against_jtlex(self):
+        corpus_path = r'../pytlex_data/TimeBankCorpus'
+
+        for file, count in jTLEX_inconsistent_subgraphs.items():
+            g = Graph(filepath=corpus_path + '/' + file)
+            print(f'\n{file}')
+            self.assertEqual(len(generate_inconsistent_subgraphs(g)), count)
+
+    # take all files not in the jtlex results
+    # 2 min 51 sec
+    def test_generate_inconsistent_subg_not_in_jtlex_count(self):
+        failed_files = {'VOA19980303.1600.2745.tml'}
+
+        corpus_path = r'../pytlex_data/TimeBankCorpus/'
+        corpus_files = [res for _, _, f in os.walk(corpus_path, topdown=True)
+                        for res in f
+                        if res not in jTLEX_inconsistent_subgraphs.keys()]
+
+        for file in corpus_files:
+            if file not in failed_files:
+                g = Graph(filepath=corpus_path + file)
+                print(f'\n{file}')
+                self.assertEqual(len(generate_inconsistent_subgraphs(g)), 0)
+
+    # run the entire corpus and
+    # 19 mins
+    def test_generate_inconsistent_subgraphs_on_corpus(self):
+        corpus_path = r'../pytlex_data/TimeBankCorpus/'
+        corpus_files = [res for _, _, f in os.walk(corpus_path, topdown=True)
+                        for res in f]
+
+        failed_files = {'VOA19980303.1600.2745.tml'}
+
+        inconsistent_subgraphs_on_corpus = dict()
+        count = 0
+
+        for file in corpus_files:
+            if file not in failed_files:
+                g = Graph(filepath=corpus_path + file)
+                res = generate_inconsistent_subgraphs(g)
+                subg_count = len(res)
+                inconsistent_subgraphs_on_corpus[file] = subg_count
+
+                if subg_count > 0:
+                    count += 1
+                    print(f'\n{file} has {subg_count} inconsistent sub-graphs\n')
+
+        print(f'Total inconsistent files {count}')
+        print(f'Total inconsistent subgraphs: {sum(inconsistent_subgraphs_on_corpus.values())}')
+
+        self.assertEqual(count, 65)
+
 
 def get_self_loop_dict():
     corpus_path = r'../pytlex_data/TimeBankCorpus'

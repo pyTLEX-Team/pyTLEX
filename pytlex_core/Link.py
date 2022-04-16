@@ -9,6 +9,9 @@ from typing import Any
 # Do not change order of variables, will cause TimeMLParser to explode... Alert vfern124 before making changes
 @dataclass
 class Link:
+    """
+    Link class represents an edge between a starting node and a related node.
+    """
     link_id: int
     link_tag: str
     rel_type: str

@@ -5,15 +5,15 @@
 from dataclasses import dataclass, field
 from pytlex_core import Signal, Event
 
-"""
-
-Class to construct Instance objects with attributes of event_instance_id, event, tense, aspect, pos, polarity,
-modality, signal, and cardinality. 
-
-"""
 
 @dataclass
 class Instance:
+    """
+
+    Class to construct Instance objects with attributes of event_instance_id, event, tense, aspect, pos, polarity,
+    modality, signal, and cardinality.
+
+    """
     event_instance_id: int
     event: Event
     tense: str
