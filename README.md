@@ -56,7 +56,7 @@ timeML_graph = Graph(timeML_nodes, timeML_links)
 ```
 timeML_graph = Graph('wsj_0555.tml')
 timeML_graph.main_partitions
-timeML_graph.subordination_parittions
+timeML_graph.subordination_partitions
 ```
 
 #### Accessing a graph's timeline:
